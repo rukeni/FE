@@ -41,17 +41,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Co2 Ninja 프론트엔드',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Co2 Ninja Logo',
+          src: 'img/logo_size.jpg',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '자바스크립트',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

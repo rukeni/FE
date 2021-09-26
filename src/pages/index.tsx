@@ -14,11 +14,12 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
+          <a
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
+            target="_blank"
+            href="https://github.com/rukeni">
+            깃허브 프로필보기
+          </a>
         </div>
       </div>
     </header>

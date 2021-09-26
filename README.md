@@ -1,33 +1,36 @@
 # Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+이 웹사이트는 프론트엔드 공부를 하면서 배운점과 느낀 것을 정리하는 사이트입니다.
 
-### Installation
+이 글 중 특별히 분석을 깊게 한 글은 미디움에 같이 연재할 예정입니다.
 
-```
-$ yarn
-```
+<!-- ## Installation
 
-### Local Development
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar. -->
 
-```
-$ yarn start
+<!-- ```bash
+pip install foobar
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Usage
 
-### Build
+```python
+import foobar
 
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
 ```
-$ yarn build
-```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### Deployment
+Please make sure to update tests as appropriate.
 
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## License
+[MIT](https://choosealicense.com/licenses/mit/) -->
